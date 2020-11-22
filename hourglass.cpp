@@ -5,7 +5,7 @@ using namespace std;
 #include <thread>
 
 void gotoxy(int x, int y);
-void simulateHourGlass(int const numOfSeconds, int const startingXCoord, int startingYCoord, char const character='*')
+void simulateHourGlass(int const numOfSeconds, int const startingXCoord, int const startingYCoord, char const character='*')
 {
 	int x = startingXCoord;
 	int y = startingYCoord;
